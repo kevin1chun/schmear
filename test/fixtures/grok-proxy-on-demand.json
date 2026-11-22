@@ -1,0 +1,10 @@
+{
+  "config": {
+    "onDemandCap": { "val": 2000 },
+    "onDemandUsed": { "val": 500 },
+    "prepaidBalance": { "val": 0 },
+    "isUnifiedBillingUser": true,
+    "billingPeriodStart": "2026-11-01T00:00:00+00:00",
+    "billingPeriodEnd": "2026-12-01T00:00:00+00:00"
+  }
+}

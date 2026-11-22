@@ -1,0 +1,62 @@
+{
+  "rateLimitResetCredits": null,
+  "rateLimits": {
+    "credits": null,
+    "individualLimit": null,
+    "limitId": "codex",
+    "limitName": null,
+    "planType": "plus",
+    "primary": {
+      "usedPercent": 12,
+      "windowDurationMins": 300,
+      "resetsAt": 1795003600
+    },
+    "rateLimitReachedType": null,
+    "secondary": {
+      "usedPercent": 64,
+      "windowDurationMins": 10080,
+      "resetsAt": 1795500000
+    },
+    "spendControlReached": false
+  },
+  "rateLimitsByLimitId": {
+    "codex": {
+      "credits": null,
+      "individualLimit": null,
+      "limitId": "codex",
+      "limitName": null,
+      "planType": "plus",
+      "primary": {
+        "usedPercent": 12,
+        "windowDurationMins": 300,
+        "resetsAt": 1795003600
+      },
+      "rateLimitReachedType": null,
+      "secondary": {
+        "usedPercent": 64,
+        "windowDurationMins": 10080,
+        "resetsAt": 1795500000
+      },
+      "spendControlReached": false
+    },
+    "codex_bengalfox": {
+      "credits": null,
+      "individualLimit": null,
+      "limitId": "codex_bengalfox",
+      "limitName": "GPT-5.3-Codex-Spark",
+      "planType": "plus",
+      "primary": {
+        "usedPercent": 99,
+        "windowDurationMins": 300,
+        "resetsAt": 1795003600
+      },
+      "rateLimitReachedType": null,
+      "secondary": {
+        "usedPercent": 64,
+        "windowDurationMins": 10080,
+        "resetsAt": 1795500000
+      },
+      "spendControlReached": false
+    }
+  }
+}

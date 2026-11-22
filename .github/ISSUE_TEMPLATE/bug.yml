@@ -1,0 +1,45 @@
+name: Bug report
+description: Something schmear did wrong
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: schmear version
+      description: Output of `schmear --version`
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: macOS 15 arm64, Ubuntu 24.04 x64
+    validations:
+      required: true
+  - type: textarea
+    id: clis
+    attributes:
+      label: CLI versions
+      description: Versions of the involved `claude`, `codex`, `grok` and `agy` CLIs.
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: "`schmear usage` output"
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: checkboxes
+    id: redacted
+    attributes:
+      label: Redaction
+      options:
+        - label: I removed tokens, API keys and personal paths from everything I pasted.
+          required: true

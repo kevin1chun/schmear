@@ -1,0 +1,58 @@
+{
+  "name": "schmear",
+  "version": "0.1.0",
+  "description": "Delegate coding subtasks across your AI subscriptions so no quota expires unused.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin1chun/schmear.git"
+  },
+  "homepage": "https://github.com/kevin1chun/schmear#readme",
+  "bugs": "https://github.com/kevin1chun/schmear/issues",
+  "type": "module",
+  "bin": {
+    "schmear": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "npm-shrinkwrap.json"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agent-client-protocol",
+    "acp",
+    "claude",
+    "codex",
+    "grok",
+    "antigravity",
+    "ai-agents",
+    "load-balancing"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "check": "tsc --noEmit && biome check . && node --test --test-timeout=60000 test/*.test.ts",
+    "test:live": "node --test test/live/*.test.ts",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@agentclientprotocol/claude-agent-acp": "0.109.1",
+    "@agentclientprotocol/codex-acp": "2.9.0",
+    "@agentclientprotocol/sdk": "2.9.1",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "smol-toml": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.8",
+    "@types/node": "^22.18.0",
+    "typescript": "^7.0.2"
+  }
+}

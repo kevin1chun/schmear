@@ -1,0 +1,16 @@
+{
+  "config": {
+    "currentPeriod": {
+      "type": "USAGE_PERIOD_TYPE_WEEKLY",
+      "start": "2026-11-16T00:00:00+00:00",
+      "end": "2026-11-23T00:00:00+00:00"
+    },
+    "onDemandCap": { "val": 0 },
+    "onDemandUsed": { "val": 0 },
+    "prepaidBalance": { "val": 350 },
+    "isUnifiedBillingUser": false,
+    "billingPeriodStart": "2026-11-01T00:00:00+00:00",
+    "billingPeriodEnd": "2026-12-01T00:00:00+00:00"
+  },
+  "subscription_tier": "Free"
+}

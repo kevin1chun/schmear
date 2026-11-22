@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      agentclientprotocol:
+        patterns: ["@agentclientprotocol/*"]
+      npm-minor-patch:
+        update-types: [minor, patch]
+        exclude-patterns: ["@agentclientprotocol/*"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions-minor-patch:
+        update-types: [minor, patch]

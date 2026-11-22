@@ -1,0 +1,27 @@
+{
+  "rateLimitResetCredits": null,
+  "rateLimits": {
+    "credits": null,
+    "individualLimit": null,
+    "limitId": "codex",
+    "limitName": null,
+    "planType": "free",
+    "primary": { "usedPercent": 37, "windowDurationMins": 43200, "resetsAt": 1795000000 },
+    "rateLimitReachedType": null,
+    "secondary": null,
+    "spendControlReached": false
+  },
+  "rateLimitsByLimitId": {
+    "codex": {
+      "credits": null,
+      "individualLimit": null,
+      "limitId": "codex",
+      "limitName": null,
+      "planType": "free",
+      "primary": { "usedPercent": 37, "windowDurationMins": 43200, "resetsAt": 1795000000 },
+      "rateLimitReachedType": null,
+      "secondary": null,
+      "spendControlReached": false
+    }
+  }
+}

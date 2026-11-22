@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t">
+  <title id="t">schmear: spread your coding work evenly across every AI subscription</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14161c"/>
+      <stop offset="1" stop-color="#1e1a17"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd28a"/>
+      <stop offset="1" stop-color="#ff8f5e"/>
+    </linearGradient>
+    <linearGradient id="crumb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d49a"/>
+      <stop offset="1" stop-color="#e9b770"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#fbefd6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb066" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffb066" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+    <linearGradient id="blade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1f3f6"/>
+      <stop offset="1" stop-color="#a9b0bb"/>
+    </linearGradient>
+    <path id="slice" d="M10 240 Q0 240 0 230 L0 100 C-7 80 -2 52 22 46 C31 26 73 26 82 46 C106 52 111 80 104 100 L104 230 Q104 240 94 240 Z"/>
+    <g id="toast">
+      <use href="#slice" fill="url(#crumb)" stroke="#b8702f" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M22 62 C36 54 50 64 62 57 C74 51 86 58 90 68 C96 100 88 130 92 160 C95 186 90 204 80 210 C64 217 48 208 34 214 C22 218 13 208 13 194 C11 160 18 130 13 100 C10 82 12 68 22 62 Z" fill="url(#cream)"/>
+      <path d="M26 92 Q52 82 80 94 M24 150 Q52 140 82 152" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-opacity="0.8"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="400" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="28" fill="url(#dots)"/>
+  <ellipse cx="884" cy="200" rx="360" ry="190" fill="url(#glow)"/>
+
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="196" font-size="104" font-weight="800" letter-spacing="-4" fill="url(#word)">schmear</text>
+    <text x="76" y="252" font-size="27" font-weight="500" fill="#e6e1d8">Spread your coding work evenly</text>
+    <text x="76" y="288" font-size="27" font-weight="500" fill="#e6e1d8">across every AI subscription.</text>
+  </g>
+  <text x="76" y="340" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#8d867c" letter-spacing="1">MCP SERVER · DELEGATE · ROUTE BY RESET</text>
+
+  <g transform="translate(640 70)"><use href="#toast"/></g>
+  <g transform="translate(768 70)"><use href="#toast"/></g>
+  <g transform="translate(896 70)"><use href="#toast"/></g>
+  <g transform="translate(1024 70)"><use href="#toast"/></g>
+  <g transform="translate(1036 122) rotate(-24)">
+    <path d="M0 9 C0 3 5 0 12 0 L92 2 L92 16 L12 18 C5 18 0 15 0 9 Z" fill="url(#blade)"/>
+    <path d="M4 6 C10 1 26 2 34 6 C28 12 12 14 4 12 Z" fill="#fffaf0"/>
+    <rect x="90" y="-1" width="66" height="20" rx="10" fill="#3a3f4a"/>
+    <circle cx="108" cy="9" r="3" fill="#8a909c"/>
+    <circle cx="136" cy="9" r="3" fill="#8a909c"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#a59d92" text-anchor="middle">
+    <text x="692" y="346">claude</text>
+    <text x="820" y="346">codex</text>
+    <text x="948" y="346">grok</text>
+    <text x="1076" y="346">agy</text>
+  </g>
+</svg>
